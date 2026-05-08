@@ -224,22 +224,27 @@
 
   <script src="js/nav.js"></script>
 
+  <a href="book.html" class="mobile-book-fab">Book Now</a>
+
   <div id="theme-switcher">
-    <p>Accent</p>
-    <div class="swatch-row">
-      <button class="swatch active" data-accent="#1F1F1F" data-accent-lt="#888888" style="background:#1F1F1F;" title="Black"></button>
-      <button class="swatch" data-accent="#4A90D9" data-accent-lt="#85BBE8" style="background:#4A90D9;" title="Blue"></button>
-      <button class="swatch" data-accent="#5BA8E8" data-accent-lt="#90CCEF" style="background:#5BA8E8;" title="Sky Blue"></button>
-      <button class="swatch" data-accent="#7B9FD4" data-accent-lt="#AABFE0" style="background:#7B9FD4;" title="Periwinkle"></button>
-      <button class="swatch" data-accent="#5A9B72" data-accent-lt="#8DC4A0" style="background:#5A9B72;" title="Sage Green"></button>
-      <button class="swatch" data-accent="#3D8F6A" data-accent-lt="#75BA9A" style="background:#3D8F6A;" title="Teal Green"></button>
-      <button class="swatch" data-accent="#E8864A" data-accent-lt="#F0AF80" style="background:#E8864A;" title="Orange"></button>
-      <button class="swatch" data-accent="#D4784A" data-accent-lt="#E4A47A" style="background:#D4784A;" title="Terracotta"></button>
-      <button class="swatch" data-accent="#D95A5A" data-accent-lt="#E89090" style="background:#D95A5A;" title="Soft Red"></button>
-      <button class="swatch" data-accent="#C4506A" data-accent-lt="#DC8898" style="background:#C4506A;" title="Rose Red"></button>
-      <button class="swatch" data-accent="#9B72D9" data-accent-lt="#BFA8E8" style="background:#9B72D9;" title="Violet"></button>
-      <button class="swatch" data-accent="#B878D4" data-accent-lt="#D4A8E4" style="background:#B878D4;" title="Orchid"></button>
+    <div class="swatch-panel">
+      <p class="accent-label">Accent</p>
+      <div class="swatch-row">
+        <button class="swatch active" data-accent="#1F1F1F" data-accent-lt="#888888" style="background:#1F1F1F;" title="Black"></button>
+        <button class="swatch" data-accent="#4A90D9" data-accent-lt="#85BBE8" style="background:#4A90D9;" title="Blue"></button>
+        <button class="swatch" data-accent="#5BA8E8" data-accent-lt="#90CCEF" style="background:#5BA8E8;" title="Sky Blue"></button>
+        <button class="swatch" data-accent="#7B9FD4" data-accent-lt="#AABFE0" style="background:#7B9FD4;" title="Periwinkle"></button>
+        <button class="swatch" data-accent="#5A9B72" data-accent-lt="#8DC4A0" style="background:#5A9B72;" title="Sage Green"></button>
+        <button class="swatch" data-accent="#3D8F6A" data-accent-lt="#75BA9A" style="background:#3D8F6A;" title="Teal Green"></button>
+        <button class="swatch" data-accent="#E8864A" data-accent-lt="#F0AF80" style="background:#E8864A;" title="Orange"></button>
+        <button class="swatch" data-accent="#D4784A" data-accent-lt="#E4A47A" style="background:#D4784A;" title="Terracotta"></button>
+        <button class="swatch" data-accent="#D95A5A" data-accent-lt="#E89090" style="background:#D95A5A;" title="Soft Red"></button>
+        <button class="swatch" data-accent="#C4506A" data-accent-lt="#DC8898" style="background:#C4506A;" title="Rose Red"></button>
+        <button class="swatch" data-accent="#9B72D9" data-accent-lt="#BFA8E8" style="background:#9B72D9;" title="Violet"></button>
+        <button class="swatch" data-accent="#B878D4" data-accent-lt="#D4A8E4" style="background:#B878D4;" title="Orchid"></button>
+      </div>
     </div>
+    <button class="accent-toggle">Accents</button>
   </div>
 
   <style>
@@ -253,13 +258,14 @@
       z-index: 9999;
       font-family: 'Figtree', sans-serif;
     }
-    #theme-switcher p {
+    .accent-label {
       font-size: 0.65rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: #888;
       margin-bottom: 8px;
     }
+    .accent-toggle { display: none; }
     .swatch-row { display: flex; gap: 8px; }
     .swatch {
       width: 22px;
@@ -269,6 +275,39 @@
       padding: 0;
     }
     .swatch.active { border-color: #000; }
+
+    @media (max-width: 840px) {
+      #theme-switcher {
+        right: auto;
+        left: 24px;
+        background: transparent;
+        border: none;
+        padding: 0;
+      }
+      .swatch-panel {
+        display: none;
+        background: #fff;
+        border: 1px solid #E0E0E0;
+        padding: 12px 14px;
+        margin-bottom: 8px;
+      }
+      #theme-switcher.open .swatch-panel { display: block; }
+      .accent-label { display: none; }
+      .swatch-row { flex-wrap: wrap; max-width: 156px; }
+      .accent-toggle {
+        display: block;
+        background: #fff;
+        border: 1px solid #E0E0E0;
+        padding: 8px 14px;
+        font-family: 'Figtree', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #555;
+        cursor: pointer;
+      }
+    }
   </style>
 
   <script>
@@ -280,6 +319,10 @@
         root.style.setProperty('--accent', btn.dataset.accent);
         root.style.setProperty('--accent-lt', btn.dataset.accentLt);
       });
+    });
+
+    document.querySelector('.accent-toggle').addEventListener('click', () => {
+      document.getElementById('theme-switcher').classList.toggle('open');
     });
   </script>
 
