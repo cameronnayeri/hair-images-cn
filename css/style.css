@@ -187,18 +187,13 @@ nav {
   max-width: var(--max-w);
   margin: 0 auto;
   padding: 0 24px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-
-.hero-text {
-  margin-top: -8px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .hero-text h1 {
-  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  font-size: clamp(1.5rem, 2.2vw, 2rem);
   margin-bottom: 16px;
   color: var(--text);
 }
@@ -251,8 +246,9 @@ nav {
 }
 
 .hero-image {
-  aspect-ratio: 4/3;
+  aspect-ratio: 4/1;
   overflow: hidden;
+  width: 100%;
 }
 
 .hero-image img {
@@ -989,6 +985,33 @@ footer {
 }
 
 /* ==============================
+   Carousel Dots
+   ============================== */
+
+.carousel-dots {
+  display: none;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.carousel-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--border);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.carousel-dot.active {
+  background: var(--accent);
+  transform: scale(1.4);
+}
+
+/* ==============================
    Mobile Book Now FAB
    ============================== */
 
@@ -1033,4 +1056,5 @@ footer {
     flex: 0 0 85%;
     scroll-snap-align: start;
   }
+  .carousel-dots { display: flex; }
 }

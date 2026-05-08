@@ -44,6 +44,9 @@
        ======================== -->
   <section class="hero">
     <div class="hero-inner">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1647462742006-adc8b77b52d2?q=80&w=2064&auto=format&fit=crop" alt="Hair salon" />
+      </div>
       <div class="hero-text">
         <h1>Quality cuts and color <em>at a price that makes sense.</em></h1>
         <p>Quality cuts, color, and care — right in the heart of Belmont. Walk-ins welcome, appointments preferred.</p>
@@ -51,9 +54,6 @@
           <a href="book.html" class="btn-primary">Book an Appointment</a>
           <a href="services.html" class="btn-outline">View Services</a>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1647462742006-adc8b77b52d2?q=80&w=2064&auto=format&fit=crop" alt="Hair salon" />
       </div>
     </div>
   </section>
@@ -152,6 +152,11 @@
           <p class="review-quote">"Annie is my absolute favorite hair person. She always knows the right cut for me. I always leave feeling good about my hair."</p>
           <p class="review-author">Jenna G.</p>
         </div>
+      </div>
+      <div class="carousel-dots">
+        <button class="carousel-dot active" aria-label="Review 1"></button>
+        <button class="carousel-dot" aria-label="Review 2"></button>
+        <button class="carousel-dot" aria-label="Review 3"></button>
       </div>
     </div>
   </section>
@@ -324,6 +329,28 @@
     document.querySelector('.accent-toggle').addEventListener('click', () => {
       document.getElementById('theme-switcher').classList.toggle('open');
     });
+
+    // Carousel dots
+    const reviewsGrid = document.querySelector('.reviews-grid');
+    const dots = document.querySelectorAll('.carousel-dot');
+    if (reviewsGrid && dots.length) {
+      dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+          const card = reviewsGrid.children[i];
+          reviewsGrid.scrollTo({ left: card.offsetLeft - reviewsGrid.offsetLeft, behavior: 'smooth' });
+        });
+      });
+      reviewsGrid.addEventListener('scroll', () => {
+        const cards = [...reviewsGrid.children];
+        let activeIndex = 0;
+        cards.forEach((card, i) => {
+          if (card.offsetLeft - reviewsGrid.offsetLeft <= reviewsGrid.scrollLeft + reviewsGrid.clientWidth / 2) {
+            activeIndex = i;
+          }
+        });
+        dots.forEach((d, i) => d.classList.toggle('active', i === activeIndex));
+      });
+    }
   </script>
 
 </body>
