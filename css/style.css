@@ -306,9 +306,9 @@ nav {
   z-index: 1;
   background: linear-gradient(
     to top,
-    rgba(74, 103, 65, 0.96) 0%,
-    rgba(74, 103, 65, 0.82) 40%,
-    rgba(74, 103, 65, 0.62) 100%
+    rgba(92, 61, 42, 0.96) 0%,
+    rgba(92, 61, 42, 0.82) 40%,
+    rgba(92, 61, 42, 0.62) 100%
   );
 }
 
@@ -343,7 +343,7 @@ nav {
 }
 .hero-content h1 em {
   font-style: italic;
-  color: var(--terracotta);
+  color: var(--parchment);
 }
 .hero-h1-sans {
   font-family: 'DM Sans', sans-serif;
