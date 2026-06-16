@@ -232,9 +232,9 @@ nav {
 .nav-links-left a,
 .nav-links-right a {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--walnut);
   transition: color 0.2s;
@@ -306,9 +306,9 @@ nav {
   z-index: 1;
   background: linear-gradient(
     to top,
-    rgba(30, 21, 16, 0.9) 0%,
-    rgba(30, 21, 16, 0.55) 38%,
-    rgba(30, 21, 16, 0.2) 100%
+    rgba(74, 103, 65, 0.96) 0%,
+    rgba(74, 103, 65, 0.82) 40%,
+    rgba(74, 103, 65, 0.62) 100%
   );
 }
 
@@ -344,6 +344,11 @@ nav {
 .hero-content h1 em {
   font-style: italic;
   color: var(--terracotta);
+}
+.hero-h1-sans {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
 }
 
 .hero-sub {
