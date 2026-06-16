@@ -11,9 +11,9 @@ if (toggle && links) {
       links.style.top           = 'var(--nav-h)';
       links.style.left          = '0';
       links.style.right         = '0';
-      links.style.background    = '#fff';
-      links.style.padding       = '20px 24px';
-      links.style.borderBottom  = '1px solid var(--border)';
+      links.style.background    = '#F5F2EC';
+      links.style.padding       = '20px 32px';
+      links.style.borderBottom  = '1px solid #D4CABB';
       links.style.gap           = '18px';
       links.style.zIndex        = '99';
     }

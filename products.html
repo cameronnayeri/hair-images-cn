@@ -8,9 +8,6 @@
 </head>
 <body>
 
-  <!-- ========================
-       Top Bar
-       ======================== -->
   <div class="topbar">
     <div class="topbar-inner">
       <span>415 Concord Ave # 1, Belmont, MA 02478</span>
@@ -19,12 +16,16 @@
     </div>
   </div>
 
-  <!-- ========================
-       Navigation
-       ======================== -->
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Hair <span>Images</span></a>
+      <a href="index.html" class="nav-logo">
+        <svg class="logo-mark" viewBox="440 0 600 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M769.28779,147.25675c88.25687-31.88978,190.90737-69.38642,237.9213-87.04711,2.36419-.8881,1.33566-4.42818-1.13921-3.92505-57.51147,11.69176-205.87798,42.79653-299.65161,70.87561l62.86953,20.09655Z"/>
+          <path d="M1007.20762,245.88717c-47.9449-18.01075-153.73857-56.64521-243.13035-88.92865l-73.99953-26.60482c-33.07234-11.82094-58.1816-20.66781-68.35287-24.00644-44.34067-14.55453-51.71648-49.684-51.71648-49.684l-.00064.00032c-3.87971-25.5289-25.9226-45.09093-52.53494-45.09093-16.38087,0-31.02489,7.41616-40.77316,19.06858l.00288-.01049s-16.00814,11.23671-27.68538-1.71002c-11.67756-12.94673-20.30861-32.23986-26.90886-28.43204-7.9951,4.61252-7.36076,36.10997,21.32401,46.96362,18.78535,7.10803,21.90808,27.60725,21.90808,27.60725l.00288-.01081c3.02474,15.34377,12.65486,28.30579,25.80412,35.8221l-.00128.00112s.26514.16307.75186.43053c.2741.15074.55269.29412.82999.44021.01665.00833.03202.01649.04867.02498,5.5,2.89273,11.56741,4.84396,17.99346,5.6533,9.36754,1.5239,21.63302,1.58146,35.81273-2.95029,32.83218-10.49277,66.68008,5.07715,78.18792,22.00094,6.19614,9.11193,10.7214,14.00056,13.58156,16.57604.00128-.00024.00192-.00032.00256-.00056,2.44708,2.20259,3.67862,2.71774,3.67862,2.71774,11.976,5.88289,29.59289,12.32119,50.78465,18.99902,0,.00024-.00064.0004-.00064.00064,92.35065,29.10193,252.86707,62.77165,313.24516,75.04679,2.47555.50329,3.5098-3.03575,1.14496-3.92411ZM517.47281,102.96244c-21.12387,0-38.24796-17.12408-38.24796-38.2478s17.12408-38.24788,38.24796-38.24788,38.24764,17.12416,38.24764,38.24788-17.12376,38.2478-38.24764,38.2478ZM692.29683,163.17083c-6.14619,0-11.12936-4.98269-11.12936-11.12928s4.98317-11.1292,11.12936-11.1292c6.14683,0,11.12936,4.98269,11.12936,11.1292s-4.98253,11.12928-11.12936,11.12928Z"/>
+          <path d="M543.74977,191.62656c-14.17971-4.53175-26.44519-4.47419-35.81273-2.95029-6.42605.80934-12.49347,2.76056-17.99346,5.6533-.01665.00849-.03202.01665-.04867.02498-.27731.1461-.55589.28947-.82999.44021-.48673.26746-.75186.43053-.75186.43053l.00128.00112c-16.01486,9.1542-26.81664,26.38827-26.81664,46.1562,0,29.34953,23.79254,53.14207,53.14207,53.14207,26.74555,0,48.86785-19.76104,52.58426-45.47743l.00769.00536s7.31945-34.7481,51.66012-49.30262c5.55955-1.82482,15.58097-5.29514,28.92621-9.997-7.05239-5.51336-19.67779-14.87186-27.62742-17.79997-12.89438,15.97451-45.12199,29.68263-76.44084,19.67355ZM514.63976,279.63049c-21.12387,0-38.24796-17.12416-38.24796-38.24788s17.12408-38.2478,38.24796-38.2478,38.24764,17.12416,38.24764,38.2478-17.12376,38.24788-38.24764,38.24788Z"/>
+        </svg>
+        <span class="logo-wordmark">Hair <em>Images</em></span>
+      </a>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
@@ -39,27 +40,20 @@
     </div>
   </nav>
 
-  <!-- ========================
-       Page Header
-       ======================== -->
-  <div class="page-header">
+  <div class="page-hero">
     <div class="container">
-      <p class="section-label">In-Salon Shop</p>
+      <span class="section-label">In-Salon Shop</span>
       <h1>Products</h1>
       <p>Professional-grade products available for purchase at the salon.</p>
     </div>
   </div>
 
-  <!-- ========================
-       Product List
-       ======================== -->
   <section class="products-content">
     <div class="container">
 
       <!-- Shampoo -->
       <div class="product-group">
         <h3 class="product-group-title">Shampoo</h3>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
@@ -68,7 +62,6 @@
           </button>
           <div class="product-desc-wrapper"><div class="product-desc"><p>Gentle daily shampoo formulated for dry or thirsty hair. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
@@ -77,7 +70,6 @@
           </button>
           <div class="product-desc-wrapper"><div class="product-desc"><p>Strengthening shampoo for damaged or over-processed hair. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
@@ -86,7 +78,6 @@
           </button>
           <div class="product-desc-wrapper"><div class="product-desc"><p>Sulfate-free formula that preserves color vibrancy and prevents fade. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
@@ -95,403 +86,366 @@
           </button>
           <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight formula that lifts roots and adds body without weighing hair down. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Scalp Balancing Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Targets excess oil and buildup while keeping the scalp comfortable and balanced. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Targets excess oil and buildup while keeping the scalp comfortable and balanced.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Clarifying Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Deep-cleansing weekly shampoo that removes product buildup and hard water residue. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Deep-cleansing weekly shampoo that removes product buildup and hard water residue.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Curl Nourishing Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Moisture-rich shampoo designed to define and support curl patterns. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Moisture-rich shampoo designed to define and support curl patterns.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Anti-Brass Purple Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Neutralizes yellow and brassy tones in blonde, silver, and highlighted hair. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Neutralizes yellow and brassy tones in blonde, silver, and highlighted hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Bond Strengthening Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Rebuilds broken hair bonds from the inside out — ideal for chemically treated or heat-damaged hair. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Rebuilds broken hair bonds from the inside out — ideal for chemically treated or heat-damaged hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Moisturizing Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Rich, creamy formula for coarse or very dry hair textures. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Rich, creamy formula for coarse or very dry hair textures.</p></div></div>
         </div>
       </div>
 
       <!-- Conditioner -->
       <div class="product-group">
         <h3 class="product-group-title">Conditioner</h3>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Hydrating Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Daily conditioner that softens and detangles without weighing hair down. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Daily conditioner that softens and detangles without weighing hair down.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Repair Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Reconstructing conditioner for weakened or brittle hair. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Reconstructing conditioner for weakened or brittle hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Color-Safe Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Gentle formula that conditions while locking in color pigment. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Gentle formula that conditions while locking in color pigment.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Volumizing Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight conditioner that hydrates without sacrificing volume or lift. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight conditioner that hydrates without sacrificing volume or lift.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Deep Conditioning Mask</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Intensive weekly treatment that restores moisture and elasticity. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Intensive weekly treatment that restores moisture and elasticity.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Leave-In Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight leave-in spray that detangles, conditions, and preps hair for styling. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight leave-in spray that detangles, conditions, and preps hair for styling.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Curl-Defining Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Moisture-dense conditioner that enhances curl pattern and reduces frizz. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Moisture-dense conditioner that enhances curl pattern and reduces frizz.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Overnight Renewal Mask</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Rich overnight treatment applied before bed for deeply nourished hair by morning. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Rich overnight treatment applied before bed for deeply nourished hair by morning.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Protein Fortifying Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Strengthens and firms hair structure with a blend of proteins and amino acids. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Strengthens and firms hair structure with a blend of proteins and amino acids.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Smoothing Conditioner</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Anti-frizz conditioner that tames flyaways and leaves hair sleek and manageable. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Anti-frizz conditioner that tames flyaways and leaves hair sleek and manageable.</p></div></div>
         </div>
       </div>
 
       <!-- Styling -->
       <div class="product-group">
         <h3 class="product-group-title">Styling</h3>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Blow Dry Cream</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Smoothing cream that speeds up blow dry time and adds polish. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Smoothing cream that speeds up blow dry time and adds polish.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Heat Protectant Spray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Shields hair from heat damage up to 450°F. Lightweight formula that won't weigh hair down. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Shields hair from heat damage up to 450°F. Lightweight formula that won't weigh hair down.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Smoothing Serum</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Finishing serum that tames frizz and adds a smooth, glossy finish. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Finishing serum that tames frizz and adds a smooth, glossy finish.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Texturizing Spray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Adds grit and volume for lived-in, effortless texture. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Adds grit and volume for lived-in, effortless texture.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Strong Hold Gel</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Maximum hold gel for sleek styles, edges, or structured looks. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Maximum hold gel for sleek styles, edges, or structured looks.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Flexible Hold Mousse</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight mousse for volume, curl support, and natural movement. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight mousse for volume, curl support, and natural movement.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Shine Spray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Ultra-fine spray that adds a brilliant, non-greasy shine as a finishing touch. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Ultra-fine spray that adds a brilliant, non-greasy shine as a finishing touch.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Dry Shampoo</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Absorbs oil and refreshes roots between washes without residue. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Absorbs oil and refreshes roots between washes without residue.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Root Lift Spray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Applied at the root before blow drying for lasting lift and body. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Applied at the root before blow drying for lasting lift and body.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Curl Defining Cream</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Defines and holds curl patterns while fighting frizz throughout the day. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Defines and holds curl patterns while fighting frizz throughout the day.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Matte Pomade</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Pliable, no-shine pomade for natural-looking texture and definition. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Pliable, no-shine pomade for natural-looking texture and definition.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Light Hold Hairspray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Flexible finishing spray that holds style in place without stiffness. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Flexible finishing spray that holds style in place without stiffness.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Strong Hold Hairspray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Long-lasting spray for styles that need maximum hold through humidity and movement. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Long-lasting spray for styles that need maximum hold through humidity and movement.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Beach Wave Spray</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Salt-infused spray that creates effortless, tousled waves on all hair types. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Salt-infused spray that creates effortless, tousled waves on all hair types.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Finishing Paste</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Medium hold paste for piecy texture and separated ends with a natural finish. Placeholder description of key ingredients, benefits, and recommended hair types.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Medium hold paste for piecy texture and separated ends with a natural finish.</p></div></div>
         </div>
       </div>
 
       <!-- Treatment -->
       <div class="product-group">
         <h3 class="product-group-title">Treatment</h3>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Scalp Revive Serum</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Nourishing serum that soothes irritation, reduces flakes, and promotes a healthy scalp environment. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Nourishing serum that soothes irritation, reduces flakes, and promotes a healthy scalp environment.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Bond Repair Ampoules</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Single-use treatment ampoules that rebuild broken disulfide bonds in severely damaged hair. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Single-use treatment ampoules that rebuild broken disulfide bonds in severely damaged hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Argan Hair Oil</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight oil that adds shine, controls frizz, and nourishes without greasiness. Can be used on wet or dry hair. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Lightweight oil that adds shine, controls frizz, and nourishes without greasiness. Can be used on wet or dry hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Keratin Smoothing Treatment</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>At-home keratin treatment that reduces frizz and softens texture for up to 4 weeks. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>At-home keratin treatment that reduces frizz and softens texture for up to 4 weeks.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Strengthening Hair Mask</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Protein-rich weekly mask that rebuilds and fortifies weak, snapping hair. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Protein-rich weekly mask that rebuilds and fortifies weak, snapping hair.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Split End Repair Serum</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Temporarily seals split ends and smooths the cuticle for healthier-looking ends. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Temporarily seals split ends and smooths the cuticle for healthier-looking ends.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Exfoliating Scalp Scrub</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Gentle physical scrub that clears buildup and dead skin cells from the scalp. Use once a week before shampooing. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Gentle physical scrub that clears buildup and dead skin cells from the scalp. Use once a week before shampooing.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Hydrating Hair Mist</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Refreshing mid-day mist that revives moisture and tames frizz on the go. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Refreshing mid-day mist that revives moisture and tames frizz on the go.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Hair Growth Serum</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>Stimulating scalp serum that supports hair density and promotes a healthy growth cycle. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>Stimulating scalp serum that supports hair density and promotes a healthy growth cycle.</p></div></div>
         </div>
-
         <div class="product-row">
           <button class="product-toggle" aria-expanded="false">
             <span class="product-brand-label">[Brand]</span>
             <span class="product-name">Color Protect Gloss</span>
             <span class="product-indicator">+</span>
           </button>
-          <div class="product-desc-wrapper"><div class="product-desc"><p>At-home gloss treatment that refreshes color tone and adds intense shine between salon visits. Placeholder description of key ingredients and benefits.</p></div></div>
+          <div class="product-desc-wrapper"><div class="product-desc"><p>At-home gloss treatment that refreshes color tone and adds intense shine between salon visits.</p></div></div>
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- ========================
-       Footer
-       ======================== -->
   <footer>
     <div class="footer-inner">
       <div class="footer-grid">
         <div class="footer-brand">
-          <h2>Hair <span>Images</span></h2>
+          <div class="footer-logo">
+            <svg class="logo-mark" viewBox="440 0 600 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M769.28779,147.25675c88.25687-31.88978,190.90737-69.38642,237.9213-87.04711,2.36419-.8881,1.33566-4.42818-1.13921-3.92505-57.51147,11.69176-205.87798,42.79653-299.65161,70.87561l62.86953,20.09655Z"/>
+              <path d="M1007.20762,245.88717c-47.9449-18.01075-153.73857-56.64521-243.13035-88.92865l-73.99953-26.60482c-33.07234-11.82094-58.1816-20.66781-68.35287-24.00644-44.34067-14.55453-51.71648-49.684-51.71648-49.684l-.00064.00032c-3.87971-25.5289-25.9226-45.09093-52.53494-45.09093-16.38087,0-31.02489,7.41616-40.77316,19.06858l.00288-.01049s-16.00814,11.23671-27.68538-1.71002c-11.67756-12.94673-20.30861-32.23986-26.90886-28.43204-7.9951,4.61252-7.36076,36.10997,21.32401,46.96362,18.78535,7.10803,21.90808,27.60725,21.90808,27.60725l.00288-.01081c3.02474,15.34377,12.65486,28.30579,25.80412,35.8221l-.00128.00112s.26514.16307.75186.43053c.2741.15074.55269.29412.82999.44021.01665.00833.03202.01649.04867.02498,5.5,2.89273,11.56741,4.84396,17.99346,5.6533,9.36754,1.5239,21.63302,1.58146,35.81273-2.95029,32.83218-10.49277,66.68008,5.07715,78.18792,22.00094,6.19614,9.11193,10.7214,14.00056,13.58156,16.57604.00128-.00024.00192-.00032.00256-.00056,2.44708,2.20259,3.67862,2.71774,3.67862,2.71774,11.976,5.88289,29.59289,12.32119,50.78465,18.99902,0,.00024-.00064.0004-.00064.00064,92.35065,29.10193,252.86707,62.77165,313.24516,75.04679,2.47555.50329,3.5098-3.03575,1.14496-3.92411ZM517.47281,102.96244c-21.12387,0-38.24796-17.12408-38.24796-38.2478s17.12408-38.24788,38.24796-38.24788,38.24764,17.12416,38.24764,38.24788-17.12376,38.2478-38.24764,38.2478ZM692.29683,163.17083c-6.14619,0-11.12936-4.98269-11.12936-11.12928s4.98317-11.1292,11.12936-11.1292c6.14683,0,11.12936,4.98269,11.12936,11.1292s-4.98253,11.12928-11.12936,11.12928Z"/>
+              <path d="M543.74977,191.62656c-14.17971-4.53175-26.44519-4.47419-35.81273-2.95029-6.42605.80934-12.49347,2.76056-17.99346,5.6533-.01665.00849-.03202.01665-.04867.02498-.27731.1461-.55589.28947-.82999.44021-.48673.26746-.75186.43053-.75186.43053l.00128.00112c-16.01486,9.1542-26.81664,26.38827-26.81664,46.1562,0,29.34953,23.79254,53.14207,53.14207,53.14207,26.74555,0,48.86785-19.76104,52.58426-45.47743l.00769.00536s7.31945-34.7481,51.66012-49.30262c5.55955-1.82482,15.58097-5.29514,28.92621-9.997-7.05239-5.51336-19.67779-14.87186-27.62742-17.79997-12.89438,15.97451-45.12199,29.68263-76.44084,19.67355ZM514.63976,279.63049c-21.12387,0-38.24796-17.12416-38.24796-38.24788s17.12408-38.2478,38.24796-38.2478,38.24764,17.12416,38.24764,38.2478-17.12376,38.24788-38.24764,38.24788Z"/>
+            </svg>
+            <span class="logo-wordmark">Hair <em>Images</em></span>
+          </div>
           <p>Your trusted neighborhood salon in the heart of Belmont, MA. Quality cuts and color at a price that makes sense.</p>
         </div>
         <div class="footer-col">
@@ -506,12 +460,9 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Hours</h4>
-          <p>Tue & Fri: 10am–5pm<br />Wed & Thu: 10am–8pm<br />Sat: 8am–4pm<br />Sun–Mon: Closed</p>
-        </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <p>415 Concord Ave # 1<br />Belmont, MA 02478<br /><br />(617) 484-5701</p>
+          <h4>Hours &amp; Contact</h4>
+          <p>Tue &amp; Fri: 10am–5pm<br>Wed &amp; Thu: 10am–8pm<br>Sat: 8am–4pm<br>Sun–Mon: Closed</p>
+          <p style="margin-top:14px;">415 Concord Ave # 1<br>Belmont, MA 02478<br><a href="tel:+16174845701">(617) 484-5701</a></p>
         </div>
       </div>
       <div class="footer-bottom">
@@ -521,6 +472,7 @@
     </div>
   </footer>
 
+  <a href="book.html" class="mobile-book-fab">Book Now</a>
   <script src="js/nav.js"></script>
   <script>
     document.querySelectorAll('.product-toggle').forEach(btn => {

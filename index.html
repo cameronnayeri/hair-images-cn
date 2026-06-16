@@ -24,7 +24,14 @@
        ======================== -->
   <nav>
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Hair <span>Images</span></a>
+      <a href="index.html" class="nav-logo">
+        <svg class="logo-mark" viewBox="440 0 600 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M769.28779,147.25675c88.25687-31.88978,190.90737-69.38642,237.9213-87.04711,2.36419-.8881,1.33566-4.42818-1.13921-3.92505-57.51147,11.69176-205.87798,42.79653-299.65161,70.87561l62.86953,20.09655Z"/>
+          <path d="M1007.20762,245.88717c-47.9449-18.01075-153.73857-56.64521-243.13035-88.92865l-73.99953-26.60482c-33.07234-11.82094-58.1816-20.66781-68.35287-24.00644-44.34067-14.55453-51.71648-49.684-51.71648-49.684l-.00064.00032c-3.87971-25.5289-25.9226-45.09093-52.53494-45.09093-16.38087,0-31.02489,7.41616-40.77316,19.06858l.00288-.01049s-16.00814,11.23671-27.68538-1.71002c-11.67756-12.94673-20.30861-32.23986-26.90886-28.43204-7.9951,4.61252-7.36076,36.10997,21.32401,46.96362,18.78535,7.10803,21.90808,27.60725,21.90808,27.60725l.00288-.01081c3.02474,15.34377,12.65486,28.30579,25.80412,35.8221l-.00128.00112s.26514.16307.75186.43053c.2741.15074.55269.29412.82999.44021.01665.00833.03202.01649.04867.02498,5.5,2.89273,11.56741,4.84396,17.99346,5.6533,9.36754,1.5239,21.63302,1.58146,35.81273-2.95029,32.83218-10.49277,66.68008,5.07715,78.18792,22.00094,6.19614,9.11193,10.7214,14.00056,13.58156,16.57604.00128-.00024.00192-.00032.00256-.00056,2.44708,2.20259,3.67862,2.71774,3.67862,2.71774,11.976,5.88289,29.59289,12.32119,50.78465,18.99902,0,.00024-.00064.0004-.00064.00064,92.35065,29.10193,252.86707,62.77165,313.24516,75.04679,2.47555.50329,3.5098-3.03575,1.14496-3.92411ZM517.47281,102.96244c-21.12387,0-38.24796-17.12408-38.24796-38.2478s17.12408-38.24788,38.24796-38.24788,38.24764,17.12416,38.24764,38.24788-17.12376,38.2478-38.24764,38.2478ZM692.29683,163.17083c-6.14619,0-11.12936-4.98269-11.12936-11.12928s4.98317-11.1292,11.12936-11.1292c6.14683,0,11.12936,4.98269,11.12936,11.1292s-4.98253,11.12928-11.12936,11.12928Z"/>
+          <path d="M543.74977,191.62656c-14.17971-4.53175-26.44519-4.47419-35.81273-2.95029-6.42605.80934-12.49347,2.76056-17.99346,5.6533-.01665.00849-.03202.01665-.04867.02498-.27731.1461-.55589.28947-.82999.44021-.48673.26746-.75186.43053-.75186.43053l.00128.00112c-16.01486,9.1542-26.81664,26.38827-26.81664,46.1562,0,29.34953,23.79254,53.14207,53.14207,53.14207,26.74555,0,48.86785-19.76104,52.58426-45.47743l.00769.00536s7.31945-34.7481,51.66012-49.30262c5.55955-1.82482,15.58097-5.29514,28.92621-9.997-7.05239-5.51336-19.67779-14.87186-27.62742-17.79997-12.89438,15.97451-45.12199,29.68263-76.44084,19.67355ZM514.63976,279.63049c-21.12387,0-38.24796-17.12416-38.24796-38.24788s17.12408-38.2478,38.24796-38.2478,38.24764,17.12416,38.24764,38.2478-17.12376,38.24788-38.24764,38.24788Z"/>
+        </svg>
+        <span class="logo-wordmark">Hair <em>Images</em></span>
+      </a>
       <ul class="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="services.html">Services</a></li>
@@ -40,118 +47,193 @@
   </nav>
 
   <!-- ========================
-       Hero
+       1. Hero
        ======================== -->
   <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-image">
-        <img src="https://images.unsplash.com/photo-1647462742006-adc8b77b52d2?q=80&w=2064&auto=format&fit=crop" alt="Hair salon" />
-      </div>
-      <div class="hero-text">
-        <h1>Quality cuts and color <em>at a price that makes sense.</em></h1>
-        <p>Quality cuts, color, and care — right in the heart of Belmont. Walk-ins welcome, appointments preferred.</p>
-        <div class="hero-actions">
-          <a href="book.html" class="btn-primary">Book an Appointment</a>
-          <a href="services.html" class="btn-outline">View Services</a>
-        </div>
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1647462742006-adc8b77b52d2?q=80&w=2064&auto=format&fit=crop"
+        alt="Hair salon interior"
+      />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Belmont's Neighborhood Salon</span>
+      <h1>Great hair.<br><em>Every time.</em></h1>
+      <p class="hero-sub">Quality cuts and color at a price that actually makes sense — right in the heart of Belmont.</p>
+      <div class="hero-ctas">
+        <a href="book.html" class="btn-primary">Book Now</a>
+        <a href="services.html" class="btn-ghost">View Services</a>
       </div>
     </div>
   </section>
 
+  <!-- Arc Divider -->
+  <div class="arc-divider" aria-hidden="true">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,38 Q500,6 900,38" stroke="#C27548" stroke-width="1"/>
+      <circle cx="500" cy="6" r="2.5" fill="#B89A3C"/>
+    </svg>
+  </div>
+
   <!-- ========================
-       Hours / Location / Phone
+       2. Philosophy
        ======================== -->
-  <section class="info-strip">
-    <div class="container">
-      <div class="info-grid">
-
-        <!-- Hours -->
-        <div class="info-card">
-          <h3>Salon Hours</h3>
-          <table class="hours-table">
-            <tr><td>Sunday</td><td class="closed">Closed</td></tr>
-            <tr><td>Monday</td><td class="closed">Closed</td></tr>
-            <tr><td>Tuesday</td><td>10:00 am – 5:00 pm</td></tr>
-            <tr><td>Wednesday</td><td>10:00 am – 8:00 pm</td></tr>
-            <tr><td>Thursday</td><td>10:00 am – 8:00 pm</td></tr>
-            <tr><td>Friday</td><td>10:00 am – 5:00 pm</td></tr>
-            <tr><td>Saturday</td><td>8:00 am – 4:00 pm</td></tr>
-          </table>
-        </div>
-
-        <!-- Location -->
-        <div class="info-card">
-          <h3>Location</h3>
-          <address>
-            415 Concord Ave # 1<br />
-            Belmont, MA 02478<br /><br />
-            <a href="#map">Get directions &rarr;</a>
-          </address>
-        </div>
-
-        <!-- Phone -->
-        <div class="info-card">
-          <h3>Phone</h3>
-          <p>
-            <a href="tel:+16174845701">(617) 484-5701</a><br /><br />
-            Call or text us to ask questions or check availability.
-          </p>
-        </div>
-
+  <section class="philosophy">
+    <div class="philosophy-inner">
+      <div class="philosophy-label-col">
+        <span class="section-label">Our Story</span>
+      </div>
+      <div class="philosophy-text">
+        <h2>A neighborhood institution,<br>not just a salon.</h2>
+        <p>Hair Images has been a trusted part of the Belmont community for years. We believe in quality cuts and color at a price that actually makes sense — no attitude, no upsells, just great hair and people who genuinely care.</p>
+        <p>Walk in as a stranger, leave feeling like a regular. That's the Hair Images way.</p>
       </div>
     </div>
   </section>
 
+  <!-- Arc Divider -->
+  <div class="arc-divider" aria-hidden="true">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,10 Q500,42 900,10" stroke="#C27548" stroke-width="1"/>
+      <circle cx="500" cy="42" r="2.5" fill="#B89A3C"/>
+    </svg>
+  </div>
+
   <!-- ========================
-       Map
+       3. Services Spotlight
        ======================== -->
-  <section class="map-section" id="map">
+  <section class="services-spotlight">
     <div class="container">
-      <div class="map-wrapper">
-        <iframe
-          class="map-embed"
-          src="https://maps.google.com/maps?q=415+Concord+Ave+%231,+Belmont,+MA+02478&output=embed"
-          width="100%"
-          height="320"
-          style="border:0;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-        <div class="map-details">
-          <p class="section-label">Find Us</p>
-          <h3>Easy to Get To</h3>
-          <p>
-            Conveniently located in Belmont, MA. Plenty of street parking nearby. Just a short walk from [nearby landmark placeholder].
-          </p>
-          <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn-outline">Open in Google Maps</a>
+      <div class="spotlight-header">
+        <span class="section-label">What We Do</span>
+        <h2>From a fresh trim to a full transformation.</h2>
+      </div>
+      <div class="spotlight-grid">
+
+        <div class="spotlight-card">
+          <div class="card-swatch">
+            <span class="card-num">01</span>
+            <span class="card-swatch-label">Cuts &amp; Styling</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Cuts</span>
+            <h3>Precision cuts for every texture</h3>
+            <p>Classic trims to transformative new looks. We take the time to get it right.</p>
+          </div>
         </div>
+
+        <div class="spotlight-card">
+          <div class="card-swatch">
+            <span class="card-num">02</span>
+            <span class="card-swatch-label">Color &amp; Gloss</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Color</span>
+            <h3>Rich, custom color treatments</h3>
+            <p>From a single-process refresh to a full color overhaul — done with care.</p>
+          </div>
+        </div>
+
+        <div class="spotlight-card">
+          <div class="card-swatch">
+            <span class="card-num">03</span>
+            <span class="card-swatch-label">Highlights &amp; Balayage</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Highlights</span>
+            <h3>Natural, sun-kissed dimension</h3>
+            <p>Face framing, full balayage, foils — subtle or bold, we'll make it look effortless.</p>
+          </div>
+        </div>
+
+        <div class="spotlight-card">
+          <div class="card-swatch">
+            <span class="card-num">04</span>
+            <span class="card-swatch-label">Blowouts &amp; Treatments</span>
+          </div>
+          <div class="card-body">
+            <span class="card-tag">Treatments</span>
+            <h3>Blowouts, keratin &amp; more</h3>
+            <p>Brazilian blowouts, blow dry styling, and treatments that leave hair feeling its best.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="spotlight-cta">
+        <a href="services.html" class="btn-outline">See All Services &amp; Pricing &rarr;</a>
       </div>
     </div>
   </section>
 
+  <!-- Arc Divider -->
+  <div class="arc-divider" aria-hidden="true">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,38 Q500,6 900,38" stroke="#C27548" stroke-width="1"/>
+      <circle cx="500" cy="6" r="2.5" fill="#B89A3C"/>
+    </svg>
+  </div>
+
   <!-- ========================
-       Reviews
+       4. Meet the Team Teaser
        ======================== -->
-  <section class="reviews-section">
-    <div class="container">
-      <div class="reviews-header">
-        <span class="reviews-stars">★★★★★</span>
-        <span class="reviews-rating">5.0 on Google</span>
+  <section class="team-teaser">
+    <div class="team-teaser-inner">
+      <div class="team-teaser-text">
+        <span class="section-label">The Team</span>
+        <h2>Real stylists.<br>Real expertise.</h2>
+        <p>Our team of experienced stylists brings warmth and skill to every single appointment. Jane, Annie, Gabi, Jessica — they're the reason clients keep coming back year after year.</p>
+        <a href="stylists.html" class="btn-outline">Meet the Team &rarr;</a>
       </div>
-      <div class="reviews-grid">
-        <div class="review-item">
-          <p class="review-quote">"Talented and friendly hairstylists, always a pleasure to go and you leave looking amazing."</p>
-          <p class="review-author">J. Buddha</p>
+      <div class="team-feature-box">
+        <blockquote>
+          <p>"The reason clients keep coming back is simple: we care about the work, and we care about you."</p>
+          <cite>— The Hair Images Team</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Arc Divider -->
+  <div class="arc-divider" aria-hidden="true">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,10 Q500,42 900,10" stroke="#C27548" stroke-width="1"/>
+      <circle cx="500" cy="42" r="2.5" fill="#B89A3C"/>
+    </svg>
+  </div>
+
+  <!-- ========================
+       5. Testimonials
+       ======================== -->
+  <section class="testimonials">
+    <div class="testimonials-inner">
+      <div class="testimonials-header">
+        <span class="testimonials-stars">★★★★★</span>
+        <span class="testimonials-rating">5.0 on Google</span>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-item">
+          <blockquote>
+            <p>"Talented and friendly hairstylists, always a pleasure to go and you leave looking amazing."</p>
+            <cite>— J. Buddha</cite>
+          </blockquote>
         </div>
-        <div class="review-item">
-          <p class="review-quote">"She totally transformed my hair to be soft, glossy, and the color is amazing! I will be coming back to Hair Images the next time."</p>
-          <p class="review-author">Chelsea G.</p>
+
+        <div class="testimonial-item">
+          <blockquote>
+            <p>"She totally transformed my hair to be soft, glossy, and the color is amazing! I will be coming back to Hair Images the next time."</p>
+            <cite>— Chelsea G.</cite>
+          </blockquote>
         </div>
-        <div class="review-item">
-          <p class="review-quote">"Annie is my absolute favorite hair person. She always knows the right cut for me. I always leave feeling good about my hair."</p>
-          <p class="review-author">Jenna G.</p>
+
+        <div class="testimonial-item">
+          <blockquote>
+            <p>"Annie is my absolute favorite hair person. She always knows the right cut for me. I always leave feeling good about my hair."</p>
+            <cite>— Jenna G.</cite>
+          </blockquote>
         </div>
+
       </div>
       <div class="carousel-dots">
         <button class="carousel-dot active" aria-label="Review 1"></button>
@@ -161,45 +243,128 @@
     </div>
   </section>
 
+  <!-- Arc Divider (inverted, lighter) -->
+  <div class="arc-divider" aria-hidden="true" style="background: var(--seaweed);">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,38 Q500,6 900,38" stroke="rgba(122,148,112,0.35)" stroke-width="1"/>
+      <circle cx="500" cy="6" r="2" fill="rgba(184,154,60,0.4)"/>
+    </svg>
+  </div>
+
   <!-- ========================
-       Socials
+       6. Location / Hours
        ======================== -->
-  <section class="socials-section">
-    <div class="container">
-      <div class="socials-inner">
-        <div class="socials-text">
-          <p class="section-label">Follow Along</p>
-          <h2 class="section-title">Stay connected</h2>
-          <p class="section-sub">See our latest styles, special offers, and what's happening at the salon.</p>
+  <section class="location-section" id="map">
+    <div class="location-inner">
+
+      <div class="location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=415+Concord+Ave+%231,+Belmont,+MA+02478&output=embed"
+          width="100%"
+          height="440"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Hair Images location map">
+        </iframe>
+      </div>
+
+      <div class="location-info">
+        <span class="section-label">Find Us</span>
+        <h2>Come see us<br>in Belmont.</h2>
+
+        <div class="location-details">
+          <div class="location-detail">
+            <h4>Address</h4>
+            <address>
+              415 Concord Ave # 1<br>
+              Belmont, MA 02478
+            </address>
+          </div>
+
+          <div class="location-detail">
+            <h4>Phone</h4>
+            <p><a href="tel:+16174845701">(617) 484-5701</a></p>
+          </div>
+
+          <div class="location-detail">
+            <h4>Hours</h4>
+            <table class="hours-table">
+              <tr><td>Sunday</td><td class="closed">Closed</td></tr>
+              <tr><td>Monday</td><td class="closed">Closed</td></tr>
+              <tr><td>Tuesday</td><td>10:00 am – 5:00 pm</td></tr>
+              <tr><td>Wednesday</td><td>10:00 am – 8:00 pm</td></tr>
+              <tr><td>Thursday</td><td>10:00 am – 8:00 pm</td></tr>
+              <tr><td>Friday</td><td>10:00 am – 5:00 pm</td></tr>
+              <tr><td>Saturday</td><td>8:00 am – 4:00 pm</td></tr>
+            </table>
+          </div>
         </div>
-        <div class="socials-links">
-          <a href="https://www.instagram.com/hairimagessalon/" class="social-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-            </svg>
-            Instagram
-          </a>
-          <a href="https://www.facebook.com/hairimagessalon/" class="social-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-            </svg>
-            Facebook
-          </a>
+
+        <div class="location-actions">
+          <a href="book.html" class="btn-primary">Book an Appointment</a>
+          <a href="https://maps.google.com/maps?q=415+Concord+Ave+%231,+Belmont,+MA+02478" target="_blank" rel="noopener" class="btn-outline">Get Directions</a>
         </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Arc Divider -->
+  <div class="arc-divider" aria-hidden="true">
+    <svg viewBox="0 0 1000 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M100,10 Q500,42 900,10" stroke="#C27548" stroke-width="1"/>
+      <circle cx="500" cy="42" r="2.5" fill="#B89A3C"/>
+    </svg>
+  </div>
+
+  <!-- ========================
+       7. Social / Follow Along
+       ======================== -->
+  <section class="social-section">
+    <div class="social-inner">
+      <div class="social-text">
+        <span class="section-label">Follow Along</span>
+        <h2>Stay connected.</h2>
+        <p>See our latest styles, special offers, and what's happening at the salon.</p>
+      </div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/hairimagessalon/" class="social-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/hairimagessalon/" class="social-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+          Facebook
+        </a>
       </div>
     </div>
   </section>
 
   <!-- ========================
-       Footer
+       8. Footer
        ======================== -->
   <footer>
     <div class="footer-inner">
       <div class="footer-grid">
+
         <div class="footer-brand">
-          <h2>Hair <span>Images</span></h2>
+          <div class="footer-logo">
+            <svg class="logo-mark" viewBox="440 0 600 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M769.28779,147.25675c88.25687-31.88978,190.90737-69.38642,237.9213-87.04711,2.36419-.8881,1.33566-4.42818-1.13921-3.92505-57.51147,11.69176-205.87798,42.79653-299.65161,70.87561l62.86953,20.09655Z"/>
+              <path d="M1007.20762,245.88717c-47.9449-18.01075-153.73857-56.64521-243.13035-88.92865l-73.99953-26.60482c-33.07234-11.82094-58.1816-20.66781-68.35287-24.00644-44.34067-14.55453-51.71648-49.684-51.71648-49.684l-.00064.00032c-3.87971-25.5289-25.9226-45.09093-52.53494-45.09093-16.38087,0-31.02489,7.41616-40.77316,19.06858l.00288-.01049s-16.00814,11.23671-27.68538-1.71002c-11.67756-12.94673-20.30861-32.23986-26.90886-28.43204-7.9951,4.61252-7.36076,36.10997,21.32401,46.96362,18.78535,7.10803,21.90808,27.60725,21.90808,27.60725l.00288-.01081c3.02474,15.34377,12.65486,28.30579,25.80412,35.8221l-.00128.00112s.26514.16307.75186.43053c.2741.15074.55269.29412.82999.44021.01665.00833.03202.01649.04867.02498,5.5,2.89273,11.56741,4.84396,17.99346,5.6533,9.36754,1.5239,21.63302,1.58146,35.81273-2.95029,32.83218-10.49277,66.68008,5.07715,78.18792,22.00094,6.19614,9.11193,10.7214,14.00056,13.58156,16.57604.00128-.00024.00192-.00032.00256-.00056,2.44708,2.20259,3.67862,2.71774,3.67862,2.71774,11.976,5.88289,29.59289,12.32119,50.78465,18.99902,0,.00024-.00064.0004-.00064.00064,92.35065,29.10193,252.86707,62.77165,313.24516,75.04679,2.47555.50329,3.5098-3.03575,1.14496-3.92411ZM517.47281,102.96244c-21.12387,0-38.24796-17.12408-38.24796-38.2478s17.12408-38.24788,38.24796-38.24788,38.24764,17.12416,38.24764,38.24788-17.12376,38.2478-38.24764,38.2478ZM692.29683,163.17083c-6.14619,0-11.12936-4.98269-11.12936-11.12928s4.98317-11.1292,11.12936-11.1292c6.14683,0,11.12936,4.98269,11.12936,11.1292s-4.98253,11.12928-11.12936,11.12928Z"/>
+              <path d="M543.74977,191.62656c-14.17971-4.53175-26.44519-4.47419-35.81273-2.95029-6.42605.80934-12.49347,2.76056-17.99346,5.6533-.01665.00849-.03202.01665-.04867.02498-.27731.1461-.55589.28947-.82999.44021-.48673.26746-.75186.43053-.75186.43053l.00128.00112c-16.01486,9.1542-26.81664,26.38827-26.81664,46.1562,0,29.34953,23.79254,53.14207,53.14207,53.14207,26.74555,0,48.86785-19.76104,52.58426-45.47743l.00769.00536s7.31945-34.7481,51.66012-49.30262c5.55955-1.82482,15.58097-5.29514,28.92621-9.997-7.05239-5.51336-19.67779-14.87186-27.62742-17.79997-12.89438,15.97451-45.12199,29.68263-76.44084,19.67355ZM514.63976,279.63049c-21.12387,0-38.24796-17.12416-38.24796-38.24788s17.12408-38.2478,38.24796-38.2478,38.24764,17.12416,38.24764,38.2478-17.12376,38.24788-38.24764,38.24788Z"/>
+            </svg>
+            <span class="logo-wordmark">Hair <em>Images</em></span>
+          </div>
           <p>Your trusted neighborhood salon in the heart of Belmont, MA. Quality cuts and color at a price that makes sense.</p>
         </div>
+
         <div class="footer-col">
           <h4>Navigate</h4>
           <ul>
@@ -211,14 +376,22 @@
             <li><a href="book.html">Book Now</a></li>
           </ul>
         </div>
+
         <div class="footer-col">
-          <h4>Hours</h4>
-          <p>Tue & Fri: 10am–5pm<br />Wed & Thu: 10am–8pm<br />Sat: 8am–4pm<br />Sun–Mon: Closed</p>
+          <h4>Hours &amp; Contact</h4>
+          <p>
+            Tue &amp; Fri: 10am–5pm<br>
+            Wed &amp; Thu: 10am–8pm<br>
+            Sat: 8am–4pm<br>
+            Sun–Mon: Closed
+          </p>
+          <p style="margin-top: 14px;">
+            415 Concord Ave # 1<br>
+            Belmont, MA 02478<br>
+            <a href="tel:+16174845701">(617) 484-5701</a>
+          </p>
         </div>
-        <div class="footer-col">
-          <h4>Contact</h4>
-          <p>415 Concord Ave # 1<br />Belmont, MA 02478<br /><br />(617) 484-5701</p>
-        </div>
+
       </div>
       <div class="footer-bottom">
         <p>&copy; 2025 Hair Images. All rights reserved.</p>
@@ -227,124 +400,25 @@
     </div>
   </footer>
 
-  <script src="js/nav.js"></script>
-
   <a href="book.html" class="mobile-book-fab">Book Now</a>
 
-  <div id="theme-switcher">
-    <div class="swatch-panel">
-      <p class="accent-label">Accent</p>
-      <div class="swatch-row">
-        <button class="swatch active" data-accent="#1F1F1F" data-accent-lt="#888888" style="background:#1F1F1F;" title="Black"></button>
-        <button class="swatch" data-accent="#4A90D9" data-accent-lt="#85BBE8" style="background:#4A90D9;" title="Blue"></button>
-        <button class="swatch" data-accent="#5BA8E8" data-accent-lt="#90CCEF" style="background:#5BA8E8;" title="Sky Blue"></button>
-        <button class="swatch" data-accent="#7B9FD4" data-accent-lt="#AABFE0" style="background:#7B9FD4;" title="Periwinkle"></button>
-        <button class="swatch" data-accent="#5A9B72" data-accent-lt="#8DC4A0" style="background:#5A9B72;" title="Sage Green"></button>
-        <button class="swatch" data-accent="#3D8F6A" data-accent-lt="#75BA9A" style="background:#3D8F6A;" title="Teal Green"></button>
-        <button class="swatch" data-accent="#E8864A" data-accent-lt="#F0AF80" style="background:#E8864A;" title="Orange"></button>
-        <button class="swatch" data-accent="#D4784A" data-accent-lt="#E4A47A" style="background:#D4784A;" title="Terracotta"></button>
-        <button class="swatch" data-accent="#D95A5A" data-accent-lt="#E89090" style="background:#D95A5A;" title="Soft Red"></button>
-        <button class="swatch" data-accent="#C4506A" data-accent-lt="#DC8898" style="background:#C4506A;" title="Rose Red"></button>
-        <button class="swatch" data-accent="#9B72D9" data-accent-lt="#BFA8E8" style="background:#9B72D9;" title="Violet"></button>
-        <button class="swatch" data-accent="#B878D4" data-accent-lt="#D4A8E4" style="background:#B878D4;" title="Orchid"></button>
-      </div>
-    </div>
-    <button class="accent-toggle">Accents</button>
-  </div>
-
-  <style>
-    #theme-switcher {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      background: #fff;
-      border: 1px solid #E0E0E0;
-      padding: 12px 14px;
-      z-index: 9999;
-      font-family: 'Figtree', sans-serif;
-    }
-    .accent-label {
-      font-size: 0.65rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: #888;
-      margin-bottom: 8px;
-    }
-    .accent-toggle { display: none; }
-    .swatch-row { display: flex; gap: 8px; }
-    .swatch {
-      width: 22px;
-      height: 22px;
-      border: 2px solid transparent;
-      cursor: pointer;
-      padding: 0;
-    }
-    .swatch.active { border-color: #000; }
-
-    @media (max-width: 840px) {
-      #theme-switcher {
-        right: auto;
-        left: 24px;
-        background: transparent;
-        border: none;
-        padding: 0;
-      }
-      .swatch-panel {
-        display: none;
-        background: #fff;
-        border: 1px solid #E0E0E0;
-        padding: 12px 14px;
-        margin-bottom: 8px;
-      }
-      #theme-switcher.open .swatch-panel { display: block; }
-      .accent-label { display: none; }
-      .swatch-row { flex-wrap: wrap; max-width: 156px; }
-      .accent-toggle {
-        display: block;
-        background: #fff;
-        border: 1px solid #E0E0E0;
-        padding: 8px 14px;
-        font-family: 'Figtree', sans-serif;
-        font-size: 0.7rem;
-        font-weight: 600;
-        letter-spacing: 0.08em;
-        text-transform: uppercase;
-        color: #555;
-        cursor: pointer;
-      }
-    }
-  </style>
-
+  <script src="js/nav.js"></script>
   <script>
-    document.querySelectorAll('.swatch').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.swatch').forEach(s => s.classList.remove('active'));
-        btn.classList.add('active');
-        const root = document.documentElement;
-        root.style.setProperty('--accent', btn.dataset.accent);
-        root.style.setProperty('--accent-lt', btn.dataset.accentLt);
-      });
-    });
-
-    document.querySelector('.accent-toggle').addEventListener('click', () => {
-      document.getElementById('theme-switcher').classList.toggle('open');
-    });
-
-    // Carousel dots
-    const reviewsGrid = document.querySelector('.reviews-grid');
+    // Testimonials carousel (mobile)
+    const grid = document.querySelector('.testimonials-grid');
     const dots = document.querySelectorAll('.carousel-dot');
-    if (reviewsGrid && dots.length) {
+    if (grid && dots.length) {
       dots.forEach((dot, i) => {
         dot.addEventListener('click', () => {
-          const card = reviewsGrid.children[i];
-          reviewsGrid.scrollTo({ left: card.offsetLeft - reviewsGrid.offsetLeft, behavior: 'smooth' });
+          const card = grid.children[i];
+          grid.scrollTo({ left: card.offsetLeft - grid.offsetLeft, behavior: 'smooth' });
         });
       });
-      reviewsGrid.addEventListener('scroll', () => {
-        const cards = [...reviewsGrid.children];
+      grid.addEventListener('scroll', () => {
+        const cards = [...grid.children];
         let activeIndex = 0;
         cards.forEach((card, i) => {
-          if (card.offsetLeft - reviewsGrid.offsetLeft <= reviewsGrid.scrollLeft + reviewsGrid.clientWidth / 2) {
+          if (card.offsetLeft - grid.offsetLeft <= grid.scrollLeft + grid.clientWidth / 2) {
             activeIndex = i;
           }
         });
