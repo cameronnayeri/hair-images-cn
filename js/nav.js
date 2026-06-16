@@ -1,21 +1,14 @@
 const toggle = document.querySelector('.nav-toggle');
-const links  = document.querySelector('.nav-links');
+const nav    = document.querySelector('nav');
 
-if (toggle && links) {
+if (toggle && nav) {
   toggle.addEventListener('click', () => {
-    const open = links.style.display === 'flex';
-    links.style.display = open ? 'none' : 'flex';
-    if (!open) {
-      links.style.flexDirection = 'column';
-      links.style.position      = 'absolute';
-      links.style.top           = 'var(--nav-h)';
-      links.style.left          = '0';
-      links.style.right         = '0';
-      links.style.background    = '#F5F2EC';
-      links.style.padding       = '20px 32px';
-      links.style.borderBottom  = '1px solid #D4CABB';
-      links.style.gap           = '18px';
-      links.style.zIndex        = '99';
+    nav.classList.toggle('menu-open');
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!nav.contains(e.target)) {
+      nav.classList.remove('menu-open');
     }
   });
 }
