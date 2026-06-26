@@ -1120,7 +1120,7 @@ footer {
   .philosophy-label-col   { padding-top: 0; }
 
   .team-teaser-inner      { grid-template-columns: 1fr; }
-  .team-feature-box       { aspect-ratio: 3/2; order: -1; padding: 36px 32px; }
+  .team-feature-box       { aspect-ratio: 3/2; order: -1; padding: 64px 32px 36px; }
 
   .testimonials-grid {
     display: flex;
