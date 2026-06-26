@@ -1109,7 +1109,9 @@ footer {
     display: inline-block;
   }
 
-  .arc-divider     { padding: 24px 20px; }
+  .arc-divider          { padding: 8px 20px; }
+  .arc-divider.arc-up   { padding-top: 36px; }
+  .arc-divider.arc-down { padding-bottom: 36px; }
 
   .hero            { min-height: 82vh; padding: 48px 0; }
   .hero-content h1 { font-size: 2.9rem; }
