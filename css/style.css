@@ -1073,7 +1073,7 @@ footer {
   .nav-toggle      { display: block; position: static; transform: none; }
   .nav-inner       { display: flex; justify-content: space-between; padding: 0 20px; }
   .nav-logo        { padding: 0 12px; }
-  .logo-mark       { height: 48px; }
+  .logo-mark       { height: 33px; }
   nav.menu-open .nav-mobile-menu {
     display: block;
     position: absolute;
